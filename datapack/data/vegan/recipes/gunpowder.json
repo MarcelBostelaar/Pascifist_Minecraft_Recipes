@@ -1,21 +1,20 @@
 {
-  "type": "minecraft:crafting_shapeless",
-  "ingredients": [
-    {
-      "item": "minecraft:charcoal"
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "###",
+        "#S#",
+        "###"
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:andesite"
+        },
+        "S": {
+            "item": "minecraft:sandstone"
+        }
     },
-    {
-      "item": "minecraft:charcoal"
-    },
-    {
-      "item": "minecraft:wheat"
-    },
-    {
-      "item": "minecraft:sugar"
+    "result": {
+        "item": "minecraft:gunpowder",
+        "count": 4
     }
-  ],
-  "result": {
-    "item": "minecraft:gunpowder",
-    "count": 2
-  }
 }

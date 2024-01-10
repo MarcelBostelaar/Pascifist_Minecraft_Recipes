@@ -1,22 +1,29 @@
 {
-  "type": "minecraft:crafting_shaped",
-  "pattern": ["###", "SHS", "WWW"],
-  "key": {
-    "#": {
-      "item": "minecraft:milk_bucket"
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "#H#",
+        "CWC",
+        "MWM"
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:sugar"
+        },
+        "H": {
+            "item": "minecraft:honey_bottle"
+        },
+        "C": {
+            "item": "minecraft:carrot"
+        },
+        "W": {
+            "item": "minecraft:wheat"
+        },
+        "M": {
+            "item": "minecraft:milk_bucket"
+        }
     },
-    "S": {
-      "item": "minecraft:sugar"
-    },
-    "H": {
-      "item": "minecraft:honey_bottle"
-    },
-    "W": {
-      "item": "minecraft:wheat"
+    "result": {
+        "item": "minecraft:cake",
+        "count": 1
     }
-  },
-  "result": {
-    "item": "minecraft:cake",
-    "count": 1
-  }
 }

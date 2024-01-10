@@ -1,20 +1,26 @@
 {
-  "type": "minecraft:crafting_shaped",
-  "group": "blaze_rod",
-  "pattern": [" # ", "B/B", " # "],
-  "key": {
-    "#": {
-      "item": "minecraft:gold_nugget"
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "#B ",
+        "LG ",
+        "   "
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:gunpowder"
+        },
+        "B": {
+            "item": "minecraft:bamboo"
+        },
+        "L": {
+            "item": "minecraft:lava_bucket"
+        },
+        "G": {
+            "item": "minecraft:glowstone_dust"
+        }
     },
-    "B": {
-      "item": "minecraft:blaze_powder"
-    },
-    "/": {
-      "item": "minecraft:stick"
+    "result": {
+        "item": "minecraft:blaze_rod",
+        "count": 1
     }
-  },
-  "result": {
-    "item": "minecraft:blaze_rod",
-    "count": 1
-  }
 }

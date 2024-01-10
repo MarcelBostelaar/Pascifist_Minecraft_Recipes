@@ -1,16 +1,18 @@
 {
-  "type": "minecraft:crafting_shaped",
-  "pattern": [" # ", "#C#", " # "],
-  "key": {
-    "#": {
-      "item": "minecraft:vine"
-    },
-    "C": {
-      "item": "minecraft:clay_ball"
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "minecraft:sweet_berries"
+        },
+        {
+            "item": "minecraft:sweet_berries"
+        },
+        {
+            "item": "minecraft:clay_ball"
+        }
+    ],
+    "result": {
+        "item": "minecraft:slime_ball",
+        "count": 1
     }
-  },
-  "result": {
-    "item": "minecraft:slime_ball",
-    "count": 1
-  }
 }

@@ -1,23 +1,23 @@
 {
     "type": "minecraft:crafting_shaped",
     "pattern": [
-        "   ",
-        "#G#",
-        " W "
+        " # ",
+        "#C#",
+        " E "
     ],
     "key": {
         "#": {
             "item": "minecraft:diamond"
         },
-        "G": {
-            "item": "minecraft:golden_apple"
+        "C": {
+            "item": "minecraft:chorus_fruit"
         },
-        "W": {
-            "item": "minecraft:water_bucket"
+        "E": {
+            "item": "minecraft:ender_eye"
         }
     },
     "result": {
-        "item": "minecraft:ghast_tear",
+        "item": "minecraft:shulker_shell",
         "count": 1
     }
 }

@@ -1,21 +1,12 @@
 {
-  "type": "minecraft:crafting_shapeless",
-  "ingredients": [
-    {
-      "item": "minecraft:wheat"
-    },
-    {
-      "item": "minecraft:wheat"
-    },
-    {
-      "item": "minecraft:wheat"
-    },
-    {
-      "item": "minecraft:wheat"
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "minecraft:vine"
+        }
+    ],
+    "result": {
+        "item": "minecraft:string",
+        "count": 1
     }
-  ],
-  "result": {
-    "item": "minecraft:string",
-    "count": 1
-  }
 }
